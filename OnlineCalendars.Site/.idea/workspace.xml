@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="CUSTOM_SCOPE_NAME" value="SalesDepot" />
+    <option name="ANALYSIS_IN_BACKGROUND" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="311ca633-43c5-41dd-82ab-ba01ea556142" name="Default" comment="" />
+    <list id="6cb86652-0ea2-464a-b0b1-9bbef25a8567" name="C#" comment="" />
+    <ignored path="WebSalesLibraries.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="WebSalesLibraries" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/protected/models/calendar/CalendarModel.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/js/regular/overlay.js" />
+        <option value="$PROJECT_DIR$/css/regular/flatty-wrapper.css" />
+        <option value="$PROJECT_DIR$/vendor/flatty/js/nav.js" />
+        <option value="$PROJECT_DIR$/vendor/flatty/css/theme-colors.css" />
+        <option value="$PROJECT_DIR$/protected/controllers/CalendarController.php" />
+        <option value="$PROJECT_DIR$/protected/views/regular/calendar/calendarList.php" />
+        <option value="$PROJECT_DIR$/protected/config/console.php" />
+        <option value="$PROJECT_DIR$/protected/models/calendars/DayRecord.php" />
+        <option value="$PROJECT_DIR$/protected/views/regular/site/errorMessage.php" />
+        <option value="$PROJECT_DIR$/protected/models/calendars/CalendarRecord.php" />
+        <option value="$PROJECT_DIR$/protected/config/params.php" />
+        <option value="$PROJECT_DIR$/protected/views/regular/calendars/calendarView.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/CalendarsController.php" />
+        <option value="$PROJECT_DIR$/protected/models/calendars/CalendarModel.php" />
+        <option value="$PROJECT_DIR$/protected/models/calendars/DayModel.php" />
+        <option value="$PROJECT_DIR$/css/regular/main-panel.css" />
+        <option value="$PROJECT_DIR$/css/regular/content.css" />
+        <option value="$PROJECT_DIR$/protected/views/regular/layouts/main.php" />
+        <option value="$PROJECT_DIR$/js/regular/main-panel.js" />
+        <option value="$PROJECT_DIR$/js/regular/calendars.js" />
+        <option value="$PROJECT_DIR$/vendor/flatty/css/light-theme.css" />
+        <option value="$PROJECT_DIR$/css/regular/calendar-list.css" />
+        <option value="$PROJECT_DIR$/protected/data/tables/tbl_user.sql" />
+        <option value="$PROJECT_DIR$/protected/models/users/UserStorage.php" />
+        <option value="$PROJECT_DIR$/protected/models/users/ResetPasswordStorage.php" />
+        <option value="$PROJECT_DIR$/protected/models/users/ResetPasswordRecord.php" />
+        <option value="D:/WorkingFiles/Websites/OnlineCalendars/yii/framework/db/ar/CActiveRecord.php" />
+        <option value="$PROJECT_DIR$/protected/components/core/UserIdentity.php" />
+        <option value="$PROJECT_DIR$/protected/models/users/UserModel.php" />
+        <option value="$PROJECT_DIR$/protected/views/regular/calendars/calendarList.php" />
+        <option value="$PROJECT_DIR$/protected/components/core/RequireLogin.php" />
+        <option value="$PROJECT_DIR$/css/regular/auth.css" />
+        <option value="$PROJECT_DIR$/protected/config/main.php" />
+        <option value="$PROJECT_DIR$/protected/views/regular/auth/disclaimerWarning.php" />
+        <option value="$PROJECT_DIR$/css/regular/popup-dialog.css" />
+        <option value="$PROJECT_DIR$/protected/views/regular/auth/recoverPassword.php" />
+        <option value="$PROJECT_DIR$/protected/models/users/UserRecord.php" />
+        <option value="db-console:/e2e2e5e0/5f689e70-8d5b-41e3-aaa1-c8c47e976102/" />
+        <option value="$PROJECT_DIR$/protected/controllers/AuthController.php" />
+        <option value="$PROJECT_DIR$/js/regular/auth.js" />
+        <option value="$PROJECT_DIR$/js/regular/header.js" />
+        <option value="$PROJECT_DIR$/protected/views/regular/site/index.php" />
+        <option value="$PROJECT_DIR$/protected/views/regular/auth/login.php" />
+        <option value="$PROJECT_DIR$/protected/views/regular/auth/changePassword.php" />
+        <option value="$PROJECT_DIR$/configuration.php" />
+        <option value="$PROJECT_DIR$/protected/views/regular/auth/successDialog.php" />
+        <option value="$PROJECT_DIR$/protected/views/email/existedUser.php" />
+        <option value="$PROJECT_DIR$/protected/views/email/newUser.php" />
+        <option value="$PROJECT_DIR$/protected/views/email/resetUser.php" />
+      </list>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="OnlineCalendars" pattern="file:protected/commands/*||file:protected/components/core/*||file:protected/components/widgets/*||file:protected/config/*||file:protected/controllers/*||file:protected/data/*||file:protected/models/common/*||file:protected/models/help/*||file:protected/models/storage/*||file:protected/models/wallbin/*||file:protected/views/email/*||file:protected/views/phone/layouts/*||file:protected/views/phone/search/*||file:protected/views/phone/site/*||file:protected/views/phone/wallbin/*||file:protected/views/regular/calendar/*||file:protected/views/regular/favorites/*||file:protected/views/regular/help/*||file:protected/views/regular/layouts/*||file:protected/views/regular/search/*||file:protected/views/regular/site/*||file:protected/views/regular/wallbin/*||file:protected/views/regular/widgets/*||file:js/phone/*||file:js/regular/*||file:css/phone/*||file:css/regular/*" />
+  </component>
+  <component name="PhpDebugGeneral" xdebug_force_break_when_no_path_mapping="false" xdebug_force_break_when_outside_project="false" />
+  <component name="PhpServers">
+    <option name="servers">
+      <server host="127.0.0.1" name="Localhost" use_path_mappings="true">
+        <path_mappings>
+          <path_mapping local_path="$PROJECT_DIR$/protected" remote_path="d:\WorkingFiles\Websites\OnlineCalendars\protected" />
+          <path_mapping local_path="$PROJECT_DIR$/protected/models/wallbin/LibraryManager.php" remote_path="d:\WorkingFiles\Websites\OnlineCalendars\protected\models\wallbin\LibraryManager.php" />
+          <path_mapping local_path="D:/WorkingFiles/Websites/SalesLibraries/yii" remote_path="D:\WorkingFiles\Websites\SalesLibraries\yii" />
+          <path_mapping local_path="$PROJECT_DIR$" remote_path="d:\WorkingFiles\Websites\OnlineCalendars" />
+        </path_mappings>
+      </server>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP">
+    <include_path>
+      <path value="D:\WorkingFiles\Websites\OnlineCalendars\yii" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers ProjectPane="true" />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineCalendars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineCalendars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineCalendars.Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineCalendars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineCalendars.Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineCalendars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineCalendars.Site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="42" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="116" />
+    <property name="options.splitter.main.proportions" value="0.3964698" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="143" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SalesDepot.NET/WebSalesLibraries" />
+    <property name="JdbcConsole.ResultInNewTab" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="63" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="657" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="446" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="146" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="143" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="Database.TableEditor.Splitter" value="0.9" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FullScreen" value="false" />
+    <property name="JdbcConsole.Extract.IncludeRowNumbers" value="false" />
+    <property name="options.splitter.details.proportions" value="0.30962342" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="Console.TableResult.DefaultCopyAction" value="Console.TableResult.Copy.Html" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="web.server" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="JdbcConsole.Extract.OpeningQuote" value="'" />
+    <property name="JdbcConsole.Extract.ClosingQuote" value="'" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="JdbcConsole.EnableParameterPattern" value="false" />
+    <property name="JdbcConsole.Extract.IncludeHeader" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="JdbcConsole.ParameterPattern" value="(\?\d*|\:\w+|\@\w+|\$\{[^$\{\}]*\}|\$\w+\$|\#\w+\#)" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="JdbcConsole.ResultPageSize" value="1000" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="SearchEverywhereHistory" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Visual Studio 2005\OnlineCalendars\OnlineCalendars.Site\js\regular" />
+      <recent name="D:\Projects\Visual Studio 2005\OnlineCalendars\OnlineCalendars.Site\css\regular" />
+      <recent name="D:\Projects\Visual Studio 2005\OnlineCalendars\OnlineCalendars.Site\protected\views\regular\auth" />
+      <recent name="D:\Projects\Visual Studio 2005\OnlineCalendars\OnlineCalendars.Site\protected\models\users" />
+      <recent name="D:\Projects\Visual Studio 2005\OnlineCalendars\OnlineCalendars.Site\protected\controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Visual Studio 2005\OnlineCalendars\OnlineCalendars.Site\protected\views\regular" />
+      <recent name="D:\Projects\Visual Studio 2005\SalesDepot.NET\WebSalesLibraries\protected\components\actions" />
+      <recent name="D:\Projects\Visual Studio 2005\SalesDepot.NET\WebSalesLibraries\css\regular" />
+      <recent name="D:\Projects\Visual Studio 2005\SalesDepot.NET\WebSalesLibraries\images\qpages\ribbon" />
+      <recent name="D:\Projects\Visual Studio 2005\SalesDepot.NET\WebSalesLibraries\css\regular\qbuilder" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Web Application.Calendars">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="D:/WorkingFiles/Websites/SalesLibraries">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="Localhost" session_id="netbeans-xdebug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="bbe3f121-55bc-430d-86e5-ad010ec25baf" server_name="Development">
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SalesDepot" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="FIREFOX" server_name="Localhost" start_url="/SalesLibraries">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="QBuilder" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="FIREFOX" server_name="Localhost" start_url="/SalesLibraries/qbuilder">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Calendars" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="FIREFOX" server_name="Localhost" start_url="/OnlineCalendars">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.SalesDepot" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Web Application.QBuilder" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Web Application.Calendars" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="311ca633-43c5-41dd-82ab-ba01ea556142" name="Default" comment="" />
+      <changelist id="6cb86652-0ea2-464a-b0b1-9bbef25a8567" name="C#" comment="" />
+      <created>1354896221408</created>
+      <updated>1354896221408</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Web SalesDepot: Code refactoring">
+      <created>1358697092765</created>
+      <updated>1358697092765</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Web SalesDepot: Config changes">
+      <created>1358697310614</created>
+      <updated>1358697310614</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Web SalesDepot: Columns Bugfix">
+      <created>1358703844587</created>
+      <updated>1358703844587</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Web SalesDepot: Code Refactoring">
+      <created>1358778737260</created>
+      <updated>1358778737260</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Web SalesDepot: Code Refactoring">
+      <created>1358779024620</created>
+      <updated>1358779024620</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Web SalesDepot: Folder Links Content options fix">
+      <created>1358864397905</created>
+      <updated>1358864397905</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Web SalesDepot: Calendar Button fix">
+      <created>1358949404854</created>
+      <updated>1358949404854</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Web SalesDepot: Link Security fix">
+      <created>1359309762781</created>
+      <updated>1359309762781</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Web SalesDepot: Mobile Folder Links fix">
+      <created>1359458279460</created>
+      <updated>1359458279460</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Web SalesDepot: Fix to add favorites links">
+      <created>1359625789183</created>
+      <updated>1359625789183</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Web SalesDepot: Favorites links fix (2 stage)">
+      <created>1359787450958</created>
+      <updated>1359787450958</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Web SalesDepot: IE8 Fancybox + Disclaimer fixes">
+      <created>1359806415967</created>
+      <updated>1359806415967</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Web SalesDepot: Hide duplicate fix">
+      <created>1359818657604</created>
+      <updated>1359818657604</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Web SalesDepot: Attachments Email fix">
+      <created>1359823941196</created>
+      <updated>1359823941196</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Web SalesDepot: Many GUI Fixes">
+      <created>1359961842280</created>
+      <updated>1359961842280</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Web SalesDepot: Many GUI Fixes">
+      <created>1360077830841</created>
+      <updated>1360077830841</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Web SalesDepot: Mobile Password Recovery fix">
+      <created>1360085945322</created>
+      <updated>1360085945322</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Web SalesDepot: Optimize site to work with folder links with Big amount of data">
+      <created>1360233946344</created>
+      <updated>1360233946344</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Web SalesDepot: Favorites folder selector fix">
+      <created>1360259403941</created>
+      <updated>1360259403941</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Web SalesDepot: Favorites DnD folders and files fix">
+      <created>1360340138291</created>
+      <updated>1360340138291</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Web SalesDepot: Favorites  folders and files deleting fix">
+      <created>1360521831798</created>
+      <updated>1360521831798</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Web SalesDepot: Fix to view WMV for original MP4 video">
+      <created>1360691848570</created>
+      <updated>1360691848570</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Web SalesDepot: Favorites  folders and files deleting fix">
+      <created>1360773529097</created>
+      <updated>1360773529097</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Web SalesDepot: Small GUI fixes + Admin service bug fixes">
+      <created>1361172949804</created>
+      <updated>1361172949804</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Web SalesDepot: Reset password email fixes">
+      <created>1361199226204</created>
+      <updated>1361199226204</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Web SalesDepot: Small GUI fixes">
+      <created>1361436399475</created>
+      <updated>1361436399475</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Web SalesDepot: User Management service optimization">
+      <created>1361446351866</created>
+      <updated>1361446351866</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Web SalesDepot: iPad Virtual Keyboard related fixes">
+      <created>1361514158176</created>
+      <updated>1361514158176</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Web SalesDepot: &quot;Do not generate preview&quot; fix">
+      <created>1361636198517</created>
+      <updated>1361636198517</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Web SalesDepot: Allow to block preview for folders too">
+      <created>1361687101832</created>
+      <updated>1361687101832</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Web SalesDepot: Data Tracker - Raw data recording">
+      <created>1362067103586</created>
+      <updated>1362067103586</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Web SalesDepot: Statistic report#1 ready">
+      <created>1362335417226</created>
+      <updated>1362335417226</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Web SalesDepot: Statistic reports #2,3,4 ready">
+      <created>1362405867286</created>
+      <updated>1362405867286</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Web SalesDepot: .Key files fix">
+      <created>1362415411209</created>
+      <updated>1362415411209</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Web SalesDepot: Link Banners bug fix">
+      <created>1362561643961</created>
+      <updated>1362561643961</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Web SalesDepot: Activity Reports fix">
+      <created>1362593572650</created>
+      <updated>1362593572650</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Web SalesDepot: Activity Reports #5,6 ready">
+      <created>1362684166126</created>
+      <updated>1362684166126</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Web SalesDepot: Video Formats fix">
+      <created>1362763692303</created>
+      <updated>1362763692303</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Web SalesDepot: Wallbin Tabs view fix">
+      <created>1363022821224</created>
+      <updated>1363022821224</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Web SalesDepot: Page Change Activity fix">
+      <created>1363083116252</created>
+      <updated>1363083116252</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Web SalesDepot: Dead links notify fix">
+      <created>1363247597520</created>
+      <updated>1363247597520</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Web SalesDepot: Video Force Preview fix">
+      <created>1363258062166</created>
+      <updated>1363258062166</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Web SalesDepot: Activity reports bug fixes">
+      <created>1363266137719</created>
+      <updated>1363266137719</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Web SalesDepot: Search fileds option fix">
+      <created>1363279151763</created>
+      <updated>1363279151763</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Web SalesDepot: Small GUI fixes and bug fixes">
+      <created>1363499108186</created>
+      <updated>1363499108186</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Web SalesDepot: Preview functionality refactoring">
+      <created>1363774303867</created>
+      <updated>1363774303867</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Web SalesDepot: Preview Bar fix + Extra Root fix">
+      <created>1364014406094</created>
+      <updated>1364014406094</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Web SalesDepot: Video Tooltip bugfix">
+      <created>1364037507749</created>
+      <updated>1364037507749</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Web SalesDepot: Mobile Favorites fix">
+      <created>1364302432632</created>
+      <updated>1364302432632</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Web SalesDepot: Modern ticker enabled">
+      <created>1364312141577</created>
+      <updated>1364312141577</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Web SalesDepot: Ticker view and management fix">
+      <created>1364918513484</created>
+      <updated>1364918513484</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Web SalesDepot: Mobile Favorites New Folder Bug fix">
+      <created>1364986326929</created>
+      <updated>1364986326929</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Web SalesDepot: Freeze column headers fix + Ticker logo fix">
+      <created>1365175718981</created>
+      <updated>1365175718981</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Web SalesDepot: Inactive users management">
+      <created>1365527052552</created>
+      <updated>1365527052552</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Web SalesDepot: quickSITES fix">
+      <created>1368171008223</created>
+      <updated>1368171008223</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Web SalesDepot: quickSITES manager for SiteManager fix + Bug fixes">
+      <created>1368274280599</created>
+      <updated>1368274280599</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Web SalesDepot: Likes fix">
+      <created>1368616740596</created>
+      <updated>1368616740596</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Site Manager: GUI fixes">
+      <created>1368618495157</created>
+      <updated>1368618495157</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Web Sales Libraries: Add quickSITE for mobile platform fix">
+      <created>1368711448872</created>
+      <updated>1368711448872</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Web Sales Libraries: Unlike fixe">
+      <created>1368798221553</created>
+      <updated>1368798221553</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Web Sales Libraries: Small GUI fixes">
+      <created>1369235838250</created>
+      <updated>1369235838250</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Web Sales Libraries: Activity fixes">
+      <created>1369322492799</created>
+      <updated>1369322492800</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Web Sales Libraries: QBuilder Service fixes + Small GUI fixes">
+      <created>1371211963810</created>
+      <updated>1371211963810</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Web Sales Libraries: Additional quickSITE options processing">
+      <created>1371543484013</created>
+      <updated>1371543484013</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Web Sales Libraries: Small GUI fixes">
+      <created>1371578658417</created>
+      <updated>1371578658417</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Web Sales Libraries: quickSITES Require Email fix + Small GUI fixes">
+      <created>1371724987108</created>
+      <updated>1371724987108</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Web Sales Libraries: quickSITES Email Adiitional options fix">
+      <created>1371751693103</created>
+      <updated>1371751693103</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Web Sales Libraries: quickSITES Email small fixes">
+      <created>1371897582544</created>
+      <updated>1371897582544</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Web Sales Libraries: quickSITES options fix">
+      <created>1372352557610</created>
+      <updated>1372352557610</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Web Sales Libraries: Complex password fix">
+      <created>1372697382765</created>
+      <updated>1372697382765</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Web Sales Libraries:  Super Filter fix + GUI fixes">
+      <created>1374775718728</created>
+      <updated>1374775718728</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Web Sales Libraries:  QPage small fix">
+      <created>1375288416105</created>
+      <updated>1375288416105</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Web Sales Libraries:  Small site fixes">
+      <created>1375725339411</created>
+      <updated>1375725339411</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Web Sales Libraries:  Small site fixes">
+      <created>1375725417168</created>
+      <updated>1375725417169</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Web Sales Libraries:  Small site fixes">
+      <created>1375861855779</created>
+      <updated>1375861855780</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Web Sales Libraries:  Link order in grid fix">
+      <created>1376569440029</created>
+      <updated>1376569440029</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Web Sales Libraries:  Small GUI fixes">
+      <created>1378733516799</created>
+      <updated>1378733516799</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Web Sales Libraries:  Small GUI fixes">
+      <created>1378811229619</created>
+      <updated>1378811229620</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Web Sales Libraries:  QBuilder Links Preview">
+      <created>1378916545193</created>
+      <updated>1378916545193</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Web Sales Libraries:  QBuilder Links Preview">
+      <created>1378916564943</created>
+      <updated>1378916564944</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Web Sales Libraries: Search result right click fix + JQM Link list GUI fix">
+      <created>1379506432818</created>
+      <updated>1379506432818</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Web Sales Libraries: Cron Utilities service added">
+      <created>1380900142069</created>
+      <updated>1380900142069</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Web Sales Libraries: Shorcut fix + Update data fixes">
+      <created>1382717746832</created>
+      <updated>1382717746832</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Web Sales Libraries: Search additional file types fix">
+      <created>1382721671089</created>
+      <updated>1382721671089</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Web Sales Libraries: Additional search options fix">
+      <created>1383109004806</created>
+      <updated>1383109004806</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Web Sales Libraries: Additional search options fix">
+      <created>1383109021299</created>
+      <updated>1383109021299</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Web Sales Libraries: Additional search options fix">
+      <created>1383109066494</created>
+      <updated>1383109066494</updated>
+    </task>
+    <task id="LOCAL-00090" summary="Web Sales Libraries: User agent fix + Chrome MacOS fix + Gui Bug fixes">
+      <created>1383841908529</created>
+      <updated>1383841908529</updated>
+    </task>
+    <task id="LOCAL-00091" summary="Web Sales Libraries: Shortcuts Search bar fix">
+      <created>1384170836921</created>
+      <updated>1384170836921</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Web Sales Libraries: JQM Shortcuts fix">
+      <created>1384785157463</created>
+      <updated>1384785157463</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Web Sales Libraries: Search bar category fix">
+      <created>1386995275842</created>
+      <updated>1386995275842</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Web Sales Libraries: Categories and Super Filters loading fix">
+      <created>1387217445675</created>
+      <updated>1387217445675</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Web Sales Libraries: Quiz configuration change">
+      <created>1387638665849</created>
+      <updated>1387638665849</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Web Sales Libraries: Quizzes functionality added">
+      <created>1388078797847</created>
+      <updated>1388078797847</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.00110011" sideWeight="0.5117396" order="14" side_tool="false" content_ui="tabs" x="22" y="790" width="1874" height="211" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24149287" sideWeight="0.49573106" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16613418" sideWeight="0.87596047" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15848452" sideWeight="0.13024282" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14909478" sideWeight="0.59625965" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17678382" sideWeight="0.86928105" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22283205" sideWeight="0.85272145" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17518637" sideWeight="0.12958115" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="1.0" sideWeight="0.48772678" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24807903" sideWeight="0.44236925" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2327113" sideWeight="0.4850587" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15314835" sideWeight="0.76237625" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24422443" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.59625965" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919957" sideWeight="0.8228823" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31394073" sideWeight="0.923159" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.124039516" sideWeight="0.6552828" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.31613612" sideWeight="0.40288153" order="1" side_tool="false" content_ui="tabs" x="-1273" y="1" width="1271" height="1022" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855567" sideWeight="0.49359658" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16026345" sideWeight="0.5741729" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Web Sales Libraries: quickSITES Require Email fix + Small GUI fixes" />
+    <MESSAGE value="Web Sales Libraries: quickSITES Email Adiitional options fix" />
+    <MESSAGE value="Web Sales Libraries: quickSITES Email small fixes" />
+    <MESSAGE value="Web Sales Libraries: quickSITES options fix" />
+    <MESSAGE value="Web Sales Libraries: Complex password fix" />
+    <MESSAGE value="Web Sales Libraries:  Super Filter fix + GUI fixes" />
+    <MESSAGE value="Web Sales Libraries:  GUI fixes" />
+    <MESSAGE value="Web Sales Libraries:  QPage small fix" />
+    <MESSAGE value="Web Sales Libraries:  Small site fixes" />
+    <MESSAGE value="Web Sales Libraries:  Link order in grid fix" />
+    <MESSAGE value="Web Sales Libraries:  Small GUI fixes" />
+    <MESSAGE value="Web Sales Libraries:  QBuilder Links Preview" />
+    <MESSAGE value="Web Sales Libraries: Search result right click fix + JQM Link list GUI fix" />
+    <MESSAGE value="Web Sales Libraries: Cron Utilities service added" />
+    <MESSAGE value="Web Sales Libraries: Shorcut fix + Update data fixes" />
+    <MESSAGE value="Web Sales Libraries: Search additional file types fix" />
+    <MESSAGE value="Web Sales Libraries: Additional search options fix" />
+    <MESSAGE value="Web Sales Libraries: User agent fix + Chrome MacOS fix + Gui Bug fixes" />
+    <MESSAGE value="Web Sales Libraries: Shortcuts Search bar fix" />
+    <MESSAGE value="Web Sales Libraries: Search bar fixes" />
+    <MESSAGE value="Web Sales Libraries: JQM Shortcuts fix" />
+    <MESSAGE value="Web Sales Libraries: Search bar category fix" />
+    <MESSAGE value="Web Sales Libraries: Categories and Super Filters loading fix" />
+    <MESSAGE value="Web Sales Libraries: Quiz configuration change" />
+    <MESSAGE value="Web Sales Libraries: Quizzes functionality added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Web Sales Libraries: Quizzes functionality added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/protected/views/regular/preview/fileCard.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/protected/models/users/UserRecord.php</url>
+          <line>43</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="244" />
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="WebSalesLibraries" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="OnlineCalendars.Site" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/regular/overlay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="8" selection-start="396" selection-end="396" vertical-scroll-proportion="0.44868034" vertical-offset="0" max-vertical-offset="682" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/regular/main-panel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.09970675" vertical-offset="0" max-vertical-offset="682" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/flatty/css/light-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3177" column="19" selection-start="39848" selection-end="39848" vertical-scroll-proportion="0.400527" vertical-offset="53705" max-vertical-offset="146965" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/regular/site/errorMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="26" selection-start="85" selection-end="85" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="221" />
+      </provider>
+    </entry>
+    <entry file="file://D:/WorkingFiles/Websites/OnlineCalendars/yii/framework/cli/views/webapp/protected/components/UserIdentity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="27" selection-start="205" selection-end="205" vertical-scroll-proportion="-1.6923077" vertical-offset="75" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://D:/WorkingFiles/Websites/OnlineCalendars/yii/framework/gii/components/UserIdentity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="27" selection-start="34" selection-end="34" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="425" />
+      </provider>
+    </entry>
+    <entry file="file://D:/WorkingFiles/Websites/OnlineCalendars/yii/framework/web/auth/CUserIdentity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="10" selection-start="905" selection-end="905" vertical-scroll-proportion="5.9615383" vertical-offset="495" max-vertical-offset="1377" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/data/tables/tbl_service_account.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="46" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/users/ServiceAccountRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="11" selection-start="322" selection-end="457" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://D:/WorkingFiles/Websites/OnlineCalendars/yii/framework/db/ar/CActiveRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1861" column="0" selection-start="68047" selection-end="68047" vertical-scroll-proportion="-14.961538" vertical-offset="31129" max-vertical-offset="40545" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/users/UserModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="11" selection-start="217" selection-end="217" vertical-scroll-proportion="-0.5" vertical-offset="293" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SyncController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="16" selection-start="559" selection-end="559" vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="1377" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/CalendarsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="57" selection-start="791" selection-end="832" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/regular/calendars/calendarList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="2" selection-start="0" selection-end="83" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/users/ChangePasswordForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="28" selection-start="13" selection-end="31" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="1445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/regular/calendars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="2669" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/users/LoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="59" selection-start="1843" selection-end="1843" vertical-scroll-proportion="1.3589743" vertical-offset="0" max-vertical-offset="1105" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/extensions/browser/Browser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="277" column="23" selection-start="11302" selection-end="11302" vertical-scroll-proportion="0.34658188" vertical-offset="4491" max-vertical-offset="21590" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/regular/calendar-list.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="1" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/core/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="41" selection-start="433" selection-end="433" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="782" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/core/RequireLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="642" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/core/UserIdentity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="60" selection-start="744" selection-end="744" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="1190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="34204" />
+      </provider>
+    </entry>
+    <entry file="file://D:/WorkingFiles/Websites/OnlineCalendars/yii/framework/web/widgets/CActiveForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="23" selection-start="7160" selection-end="7171" vertical-scroll-proportion="-16.961538" vertical-offset="2347" max-vertical-offset="14756" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/regular/auth.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/console.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/regular/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="254" selection-end="262" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="340" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/regular/popup-dialog.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="7" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1513" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/regular/auth/recoverPassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="85" selection-start="209" selection-end="209" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/e2e2e5e0/5f689e70-8d5b-41e3-aaa1-c8c47e976102/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="32" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="549" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/users/ResetPasswordRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="7" selection-start="77" selection-end="77" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="391" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/users/UserRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="56" selection-start="1351" selection-end="1351" vertical-scroll-proportion="-18.423077" vertical-offset="541" max-vertical-offset="2873">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/regular/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4709" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/regular/auth/changePassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="83" selection-start="946" selection-end="946" vertical-scroll-proportion="0.33689025" vertical-offset="0" max-vertical-offset="1921" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/regular/auth/disclaimerWarning.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="42" selection-start="337" selection-end="337" vertical-scroll-proportion="0.28506097" vertical-offset="0" max-vertical-offset="656" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/regular/auth/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="99" selection-start="729" selection-end="729" vertical-scroll-proportion="-0.99542683" vertical-offset="840" max-vertical-offset="2414" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/regular/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="14" selection-start="1327" selection-end="1327" vertical-scroll-proportion="0.9501466" vertical-offset="287" max-vertical-offset="1037" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/regular/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="97" selection-start="2292" selection-end="2292" vertical-scroll-proportion="0.3262195" vertical-offset="194" max-vertical-offset="1122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.44817072" vertical-offset="233" max-vertical-offset="1071" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="43" selection-start="2947" selection-end="2947" vertical-scroll-proportion="0.12752722" vertical-offset="1516" max-vertical-offset="2159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/data/tables/tbl_calendar.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/email/resetUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="68" selection-start="188" selection-end="188" vertical-scroll-proportion="0.20731707" vertical-offset="0" max-vertical-offset="656" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/email/newUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="68" selection-start="377" selection-end="377" vertical-scroll-proportion="0.3109756" vertical-offset="0" max-vertical-offset="656" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/regular/auth/successDialog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="42" selection-start="294" selection-end="294" vertical-scroll-proportion="0.2369338" vertical-offset="0" max-vertical-offset="861">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/email/existedUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="64" selection-start="288" selection-end="352" vertical-scroll-proportion="0.2369338" vertical-offset="0" max-vertical-offset="861">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="14" selection-start="1697" selection-end="1697" vertical-scroll-proportion="0.8195755" vertical-offset="19" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/data/tables/tbl_reset_password.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="0" selection-end="225" vertical-scroll-proportion="0.11499436" vertical-offset="0" max-vertical-offset="887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/data/tables/tbl_user.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="0" selection-end="476" vertical-scroll-proportion="0.22998872" vertical-offset="0" max-vertical-offset="887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>OnlineCalendars</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="OnlineCalendars" />
+          </order>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

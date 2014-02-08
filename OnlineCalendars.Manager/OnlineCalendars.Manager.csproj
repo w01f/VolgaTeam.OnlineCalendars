@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AA9E3BD3-A87F-4039-ADD1-4DBC35FAF07D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OnlineCalendars.Manager</RootNamespace>
+    <AssemblyName>calbookit</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.5.0.2, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppManager.cs" />
+    <Compile Include="BusinessClasses\ConfigurationManager.cs" />
+    <Compile Include="BusinessClasses\CopyPasteManager.cs" />
+    <Compile Include="BusinessClasses\EventArgs.cs" />
+    <Compile Include="BusinessClasses\SelectionManager.cs" />
+    <Compile Include="BusinessClasses\SettingsManager.cs" />
+    <Compile Include="Services\SyncHelper.cs" />
+    <Compile Include="Common\Utilities.cs" />
+    <Compile Include="Common\WinAPIHelper.cs" />
+    <Compile Include="Controller.cs" />
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarEditorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarEditorControl.Designer.cs">
+      <DependentUpon>CalendarEditorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarList\CalendarListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarList\CalendarListControl.Designer.cs">
+      <DependentUpon>CalendarListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarList\FormCalendarEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarList\FormCalendarEdit.Designer.cs">
+      <DependentUpon>FormCalendarEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarView\CalendarViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarView\CalendarViewControl.Designer.cs">
+      <DependentUpon>CalendarViewControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarView\DayControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarView\DayControl.designer.cs">
+      <DependentUpon>DayControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarView\FormCloneDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarView\FormCloneDay.designer.cs">
+      <DependentUpon>FormCloneDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarView\MonthControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarView\MonthControl.designer.cs">
+      <DependentUpon>MonthControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarView\WeekControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarView\WeekControl.designer.cs">
+      <DependentUpon>WeekControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarView\WeekEmptySpaceControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PresentationClasses\CalendarView\WeekEmptySpaceControl.designer.cs">
+      <DependentUpon>WeekEmptySpaceControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PresentationClasses\ITabPageControl.cs" />
+    <Compile Include="PresentationClasses\SiteUsersControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PresentationClasses\SiteUsersControl.Designer.cs">
+      <DependentUpon>SiteUsersControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CalendarModel.cs" />
+    <Compile Include="Services\DayModel.cs" />
+    <Compile Include="Services\SiteClient.cs" />
+    <Compile Include="ToolForms\FormNewSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolForms\FormNewSchedule.designer.cs">
+      <DependentUpon>FormNewSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolForms\FormOpenSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolForms\FormOpenSchedule.designer.cs">
+      <DependentUpon>FormOpenSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolForms\FormProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolForms\FormProgress.designer.cs">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolForms\FormStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolForms\FormStart.designer.cs">
+      <DependentUpon>FormStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\SyncService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationClasses\CalendarEditorControl.resx">
+      <DependentUpon>CalendarEditorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationClasses\CalendarList\CalendarListControl.resx">
+      <DependentUpon>CalendarListControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationClasses\CalendarList\FormCalendarEdit.resx">
+      <DependentUpon>FormCalendarEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationClasses\CalendarView\CalendarViewControl.resx">
+      <DependentUpon>CalendarViewControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationClasses\CalendarView\DayControl.resx">
+      <DependentUpon>DayControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationClasses\CalendarView\FormCloneDay.resx">
+      <DependentUpon>FormCloneDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationClasses\CalendarView\MonthControl.resx">
+      <DependentUpon>MonthControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationClasses\CalendarView\WeekControl.resx">
+      <DependentUpon>WeekControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationClasses\CalendarView\WeekEmptySpaceControl.resx">
+      <DependentUpon>WeekEmptySpaceControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PresentationClasses\SiteUsersControl.resx">
+      <DependentUpon>SiteUsersControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ToolForms\FormNewSchedule.resx">
+      <DependentUpon>FormNewSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolForms\FormOpenSchedule.resx">
+      <DependentUpon>FormOpenSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolForms\FormProgress.resx">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolForms\FormStart.resx">
+      <DependentUpon>FormStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Web References\SyncService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SyncService\SyncController.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteConfiguration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewConfiguration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpenConfiguration.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddCalendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditCalendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloneCalendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteCalendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HelpSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalendarEditButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloneData.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CopyData.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteData.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PasteData.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditData.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloneDay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MonthCalendar\MonthCalendar.csproj">
+      <Project>{898ECB12-D464-4514-AE2E-45FE430FE04E}</Project>
+      <Name>MonthCalendar</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SyncData.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddUser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditUser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteUser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RefreshUsers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PresentationClasses\SiteUsers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost/OnlineCalendars/sync/quote">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\SyncService\</RelPath>
+      <UpdateFromURL>http://localhost/OnlineCalendars/sync/quote</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>calbookit_SyncService_SyncControllerService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,50 @@
+#main-nav .navigation > .nav > li > a > span.title,
+.main-nav-opened #main-nav .navigation > .nav > li > a > span.title
+{
+	display: inline-table !important;
+	color: #3c3c3c;
+	text-shadow: 1px 1px 1px #ececec;
+	position: relative;
+	top: -13px;
+	line-height: 20px;
+	-webkit-transition: all 100ms ease;
+	-moz-transition: all 100ms ease;
+	-o-transition: all 100ms ease;
+	transition: all 100ms ease;
+}
+
+#main-nav .navigation > .nav > li > a [class^="icon-"], #main-nav .navigation > .nav > li > a [class*=" icon-"]
+{
+	display: inline !important;
+}
+
+.main-nav-closed #main-nav .navigation > .nav > li:hover > a > span.title
+{
+	position: absolute;
+	left: 45px;
+	width: 300px;
+	height: 43px;
+	background-color: #fefefe;
+	z-index: 1000;
+	border: 1px solid #dddddd;
+	border-left: none;
+	display: inline-table !important;
+	top: -1px;
+	line-height: 20px;
+}
+
+.main-nav-closed #main-nav .navigation > .nav > li > a > span.title
+{
+	display: none !important;
+}
+
+#main-nav .navigation > .nav > li > a > .title > div
+{
+	display: table-row;
+}
+
+#main-nav .navigation > .nav > li > a > .title > div.sub
+{
+	font-size: 85%;
+	color: #959595;
+}

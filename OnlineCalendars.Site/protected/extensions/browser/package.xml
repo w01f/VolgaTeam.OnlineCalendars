@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE contaopackage>
+<extension name="browserdetection" date="20120809">
+    <author user="jan.theofel" name="Jan Theofel" website="http://www.theofel.de/" />
+    <copyright>&amp;copy; 2011 Jan Theofel, 2010 ETES GmbH, PHP Klasse 2008-2010 Chris Schuld</copyright>
+    <license>GPL2 or any later version</license>
+    <classification type="free" category="other" />
+    <release version="10090029" build="7" date="20110815" />
+    <contao minversion="20080009" maxversion="20110029" />
+    <language code="de">
+        <translator user="jan.theofel" name="Jan Theofel" website="http://www.theofel.de/" />
+        <searchtags>browser,erkennen,erkennung</searchtags>
+        <title>PHP Klasse zur Webbrowser-Erkennung</title>
+        <teaser>Stellt eine PHP Klasse zur einfachen Webbrowsererkennung bereit</teaser>
+        <description>&lt;p&gt;&lt;strong&gt;Ab Contao 2.10 steht im Contao Core eine entsprechende Funktion, so dass diese Erweiterung nicht mehr benötogt wird. Ab Conato 2.10 wird eine entsprechende Meldung ausgegeben.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Stellt die Klasse aus Browser.php von Chris Schlund (siehe http://chrisschuld.com/projects/browser-php-detecting-a-users-browser-from-php/) als PHP-Klasse innerhalb von Conato zur Verfügung. &lt;strong&gt;Diese Erweiterung richtet sich an andere Entwcikler, die auf einfachem Weg eine Browsererkennung durchführen wollen.&lt;/strong&gt; Aktuelle Versionen der Klasse werden als neue Versionen nachgepflegt.&lt;strong&gt;&lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Nutzung in eigenen Erweiterungen&lt;/h3&gt;
+&lt;p&gt;Nach einem $this-&gt;import(&#039;Browser&#039;); stehen folgende Funktionen zur Verfügung&lt;br /&gt;&lt;br /&gt;$this-&gt;Browser-&gt;getBrowser() (-&gt;Rückgabewerte siehe unten)&lt;br /&gt;$this-&gt;Browser-&gt;getVersion()&lt;br /&gt;$this-&gt;Browser-&gt;getPlatform() (-&gt;Rückgabewerte siehe unten)&lt;br /&gt;$this-&gt;Browser-&gt;getAolVersion()&lt;br /&gt;$this-&gt;Browser-&gt;isAol()&lt;br /&gt;$this-&gt;Browser-&gt;isMobile()&lt;br /&gt;$this-&gt;Browser-&gt;isRobot()&lt;/p&gt;
+&lt;h3&gt;Rückgabewerte/Erkannte Systeme&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Webbrowser:&lt;/strong&gt; &#039;unknown&#039;, &#039;Opera&#039;, &#039;Opera Mini&#039;, &#039;WebTV&#039;, &#039;Internet Explorer&#039;, &#039;Pocket Internet Explorer&#039;, &#039;Konqueror&#039;, &#039;iCab&#039;, &#039;OmniWeb&#039;, &#039;Firebird&#039;, &#039;Firefox&#039;, &#039;Iceweasel&#039;, &#039;Shiretoko&#039;, &#039;Mozilla&#039;, &#039;Amaya&#039;, &#039;Lynx&#039;, &#039;Safari&#039;, &#039;iPhone&#039;, &#039;iPod&#039;, &#039;iPad&#039;, &#039;Chrome&#039;, &#039;Android&#039;, &#039;GoogleBot&#039;, &#039;Yahoo! Slurp&#039;, &#039;W3C Validator&#039;, &#039;BlackBerry&#039;, &#039;IceCat&#039;, &#039;Nokia S60 OSS Browser&#039;, &#039;Nokia Browser&#039;, &#039;MSN Browser&#039;, &#039;MSN Bot&#039;&lt;br /&gt;&lt;strong&gt;Plattformen:&lt;/strong&gt; &#039;unknown&#039;, &#039;Windows&#039;, &#039;Windows CE&#039;, &#039;Apple&#039;, &#039;Linux&#039;, &#039;OS/2&#039;, &#039;BeOS&#039;, &#039;iPhone&#039;, &#039;iPod&#039;, &#039;iPad&#039;, &#039;BlackBerry&#039;, &#039;Nokia&#039;, &#039;FreeBSD&#039;, &#039;OpenBSD&#039;, &#039;NetBSD&#039;, &#039;SunOS&#039;, &#039;OpenSolaris&#039;, &#039;Android&#039;&lt;/p&gt;</description>
+        <releasenotes>&lt;p&gt;- Hinweis für Contao 2.10 ergänzt, dass die Extension obsolete ist&lt;/p&gt;</releasenotes>
+    </language>
+    <language code="en">
+        <translator user="jan.theofel" name="Jan Theofel" website="http://www.theofel.de/" />
+        <searchtags>browser,detection</searchtags>
+        <title>PHP class for browser detection</title>
+        <teaser>Implements a PHP class for simple browser detection</teaser>
+        <description>&lt;p&gt;&lt;strong&gt;With Contao 2.10 a similar function was added to the Contao core which makes this extension obsolete. From Contao 2.10 a message will be displayed with this information.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Impelemnts the class from Browser.php by Chris Schlund (see http://chrisschuld.com/projects/browser-php-detecting-a-users-browser-from-php/) as PHP class inside of Contao. &lt;strong&gt;This extension is for other developers who like to have an easy browser detection.&lt;/strong&gt; Comming versions of Browser.php will be made available as update.&lt;strong&gt; &lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Usage in extension:&lt;/h3&gt;
+&lt;p&gt;After $this-&gt;import(&#039;Browser&#039;); you can use the following function:&lt;br /&gt;&lt;br /&gt;$this-&gt;Browser-&gt;getBrowser() (-&gt;see below for return values)&lt;br /&gt;$this-&gt;Browser-&gt;getVersion()&lt;br /&gt;$this-&gt;Browser-&gt;getPlatform() (-&gt;see below for return values)&lt;br /&gt;$this-&gt;Browser-&gt;getAolVersion()&lt;br /&gt;$this-&gt;Browser-&gt;isAol()&lt;br /&gt;$this-&gt;Browser-&gt;isMobile()&lt;br /&gt;$this-&gt;Browser-&gt;isRobot()&lt;/p&gt;
+&lt;h3&gt;Return Values/Detected systems:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Webbrowser:&lt;/strong&gt; &#039;unknown&#039;, &#039;Opera&#039;, &#039;Opera Mini&#039;, &#039;WebTV&#039;, &#039;Internet Explorer&#039;, &#039;Pocket Internet Explorer&#039;, &#039;Konqueror&#039;, &#039;iCab&#039;, &#039;OmniWeb&#039;, &#039;Firebird&#039;, &#039;Firefox&#039;, &#039;Iceweasel&#039;, &#039;Shiretoko&#039;, &#039;Mozilla&#039;, &#039;Amaya&#039;, &#039;Lynx&#039;, &#039;Safari&#039;, &#039;iPhone&#039;, &#039;iPod&#039;, &#039;iPad&#039;, &#039;Chrome&#039;, &#039;Android&#039;, &#039;GoogleBot&#039;, &#039;Yahoo! Slurp&#039;, &#039;W3C Validator&#039;, &#039;BlackBerry&#039;, &#039;IceCat&#039;, &#039;Nokia S60 OSS Browser&#039;, &#039;Nokia Browser&#039;, &#039;MSN Browser&#039;, &#039;MSN Bot&#039;&lt;br /&gt;&lt;strong&gt;Platforms:&lt;/strong&gt; &#039;unknown&#039;, &#039;Windows&#039;, &#039;Windows CE&#039;, &#039;Apple&#039;, &#039;Linux&#039;, &#039;OS/2&#039;, &#039;BeOS&#039;, &#039;iPhone&#039;, &#039;iPod&#039;, &#039;iPad&#039;, &#039;BlackBerry&#039;, &#039;Nokia&#039;, &#039;FreeBSD&#039;, &#039;OpenBSD&#039;, &#039;NetBSD&#039;, &#039;SunOS&#039;, &#039;OpenSolaris&#039;, &#039;Android&#039;&lt;/p&gt;</description>
+        <releasenotes>&lt;p&gt;- Added message for Contao 2.10 and above&lt;/p&gt;</releasenotes>
+    </language>
+    <language code="fr">
+        <translator user="equipc" name="Michel LAURENT" website="http://www.equipc.net" />
+        <searchtags>detection,navigateur</searchtags>
+        <title>Classe PHP pour la détection du navigateur</title>
+        <teaser>Implémante une classe PHP pour une détection simple du navigateur</teaser>
+        <description>&lt;p&gt;Implémante la classe Browser.php de Chris Schlund (voir http://chrisschuld.com/projects/browser-php-detecting-a-users-browser-from-php/) comme classe PHP à l&#039;intérieur de Contao. &lt;p&gt;&lt;strong&gt;Cette extension est utile aux autres développeurs qui souhaitent avoir un système facile de détection du navigateur.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Les prochaines versions de Browser.php seront disponibles par mise-à-jour.&lt;/p&gt; &lt;h3&gt;Utilisation dans une extension &lt;/h3&gt; &lt;p&gt;Après $this-&amp;gt;import(&#039;Browser&#039;); vous pouvez utiliser les fonctions suivantes : &lt;br&gt;&lt;br&gt;$this-&amp;gt;Browser-&amp;gt;getBrowser() (-&amp;gt;voir ci-dessous pour les valeurs retournées)&lt;br&gt;$this-&amp;gt;Browser-&amp;gt;getVersion()&lt;br&gt;$this-&amp;gt;Browser-&amp;gt;getPlatform() (-&amp;gt;voir ci-dessous pour les valeurs retournées)&lt;br&gt;$this-&amp;gt;Browser-&amp;gt;getAolVersion()&lt;br&gt;$this-&amp;gt;Browser-&amp;gt;isAol()&lt;br&gt;$this-&amp;gt;Browser-&amp;gt;isMobile()&lt;br&gt;$this-&amp;gt;Browser-&amp;gt;isRobot()&lt;/p&gt; &lt;h3&gt;Valeurs retournées / Systèmes détectés :&lt;/h3&gt; &lt;p&gt;&lt;strong&gt;Navigateurs:&lt;/strong&gt; &#039;unknown&#039;, &#039;Opera&#039;, &#039;Opera Mini&#039;, &#039;WebTV&#039;, &#039;Internet Explorer&#039;, &#039;Pocket Internet Explorer&#039;, &#039;Konqueror&#039;, &#039;iCab&#039;, &#039;OmniWeb&#039;, &#039;Firebird&#039;, &#039;Firefox&#039;, &#039;Iceweasel&#039;, &#039;Shiretoko&#039;, &#039;Mozilla&#039;, &#039;Amaya&#039;, &#039;Lynx&#039;, &#039;Safari&#039;, &#039;iPhone&#039;, &#039;iPod&#039;, &#039;iPad&#039;, &#039;Chrome&#039;, &#039;Android&#039;, &#039;GoogleBot&#039;, &#039;Yahoo! Slurp&#039;, &#039;W3C Validator&#039;, &#039;BlackBerry&#039;, &#039;IceCat&#039;, &#039;Nokia S60 OSS Browser&#039;, &#039;Nokia Browser&#039;, &#039;MSN Browser&#039;, &#039;MSN Bot&#039;&lt;br&gt;&lt;strong&gt;Plateformes:&lt;/strong&gt; &#039;unknown&#039;, &#039;Windows&#039;, &#039;Windows CE&#039;, &#039;Apple&#039;, &#039;Linux&#039;, &#039;OS/2&#039;, &#039;BeOS&#039;, &#039;iPhone&#039;, &#039;iPod&#039;, &#039;iPad&#039;, &#039;BlackBerry&#039;, &#039;Nokia&#039;, &#039;FreeBSD&#039;, &#039;OpenBSD&#039;, &#039;NetBSD&#039;, &#039;SunOS&#039;, &#039;OpenSolaris&#039;, &#039;Android&#039;&lt;/p&gt;</description>
+        <releasenotes>&lt;p&gt;- Correction de bugs&lt;br&gt; - Ajout des tableaux $GLOBALS[&#039;BROWSERDETECTION&#039;][&#039;lists&#039;][&#039;browsernames&#039;] et $GLOBALS[&#039;BROWSERDETECTION&#039;][&#039;lists&#039;][&#039;systemnames&#039;]&lt;/p&gt;</releasenotes>
+    </language>
+    <language code="ja">
+        <translator user="taca" name="Takahiro Kambe" website="http://www.contaocms.jp/" />
+        <searchtags>browser,detection</searchtags>
+        <title>ブラウザー検出のためのPHPのクラス</title>
+        <teaser>単純なブラウザー検出のPHPのクラスを実装</teaser>
+        <description>&lt;p&gt;&lt;strong&gt;Contao 2.10で、この機能拡張を旧式とする同様な機能がContaoの本体に追加されました。Contao 2.10からはそのことを示すメッセージを表示します。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Chris Schlund (see http://chrisschuld.com/projects/browser-php-detecting-a-users-browser-from-php/)によるBrowser.phpから、Contaoの内部のPHPのクラスの実装です。&lt;strong&gt;この機能拡張は簡単にブラウザーのバージョンを検出を行いたい、他の開発者のためのものです。&lt;/strong&gt; Browser.phpの将来のバージョンは更新として提供します。&lt;strong&gt; &lt;br /&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;機能拡張の使用法:&lt;/h3&gt;
+&lt;p&gt;$this-[gt]import(&#039;Browser&#039;); の後で、以下の関数を使用できます:&lt;br /&gt;&lt;br /&gt;$this-[gt]Browser-[gt]getBrowser() (-[gt]戻り値は以下を参照)&lt;br /&gt;$this-[gt]Browser-[gt]getVersion()&lt;br /&gt;$this-[gt]Browser-[gt]getPlatform() (-[gt]戻り値は以下を参照)&lt;br /&gt;$this-[gt]Browser-[gt]getAolVersion()&lt;br /&gt;$this-[gt]Browser-[gt]isAol()&lt;br /&gt;$this-[gt]Browser-[gt]isMobile()&lt;br /&gt;$this-[gt]Browser-[gt]isRobot()&lt;/p&gt;
+&lt;h3&gt;戻り値と検出するシステム:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;ウェブブラウザー:&lt;/strong&gt; &#039;unknown&#039;, &#039;Opera&#039;, &#039;Opera Mini&#039;, &#039;WebTV&#039;, &#039;Internet Explorer&#039;, &#039;Pocket Internet Explorer&#039;, &#039;Konqueror&#039;, &#039;iCab&#039;, &#039;OmniWeb&#039;, &#039;Firebird&#039;, &#039;Firefox&#039;, &#039;Iceweasel&#039;, &#039;Shiretoko&#039;, &#039;Mozilla&#039;, &#039;Amaya&#039;, &#039;Lynx&#039;, &#039;Safari&#039;, &#039;iPhone&#039;, &#039;iPod&#039;, &#039;iPad&#039;, &#039;Chrome&#039;, &#039;Android&#039;, &#039;GoogleBot&#039;, &#039;Yahoo! Slurp&#039;, &#039;W3C Validator&#039;, &#039;BlackBerry&#039;, &#039;IceCat&#039;, &#039;Nokia S60 OSS Browser&#039;, &#039;Nokia Browser&#039;, &#039;MSN Browser&#039;, &#039;MSN Bot&#039;&lt;br /&gt;&lt;strong&gt;動作環境:&lt;/strong&gt; &#039;unknown&#039;, &#039;Windows&#039;, &#039;Windows CE&#039;, &#039;Apple&#039;, &#039;Linux&#039;, &#039;OS/2&#039;, &#039;BeOS&#039;, &#039;iPhone&#039;, &#039;iPod&#039;, &#039;iPad&#039;, &#039;BlackBerry&#039;, &#039;Nokia&#039;, &#039;FreeBSD&#039;, &#039;OpenBSD&#039;, &#039;NetBSD&#039;, &#039;SunOS&#039;, &#039;OpenSolaris&#039;, &#039;Android&#039;&lt;/p&gt;</description>
+        <releasenotes>&lt;p&gt;- Contao 2.10以降のためのメッセージを追加しました。&lt;/p&gt;</releasenotes>
+    </language>
+</extension>

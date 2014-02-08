@@ -1,0 +1,84 @@
+.popup-dialog table, table.popup-dialog
+{
+	width: 100%;
+}
+
+.popup-dialog td
+{
+	height: 40px;
+	padding-bottom: 10px;
+}
+
+.popup-dialog td.title
+{
+	text-align: left;
+	vertical-align: middle;
+}
+
+.popup-dialog .aligned-top
+{
+	vertical-align: top;
+}
+
+.popup-dialog .dropdown-menu
+{
+	padding: 10px;
+	text-align: left;
+	width: 250px;
+}
+
+.popup-dialog .dropdown-menu ul
+{
+	margin: 0;
+}
+
+.popup-dialog .dropdown-menu li
+{
+	list-style: none;
+	padding-bottom: 5px;
+}
+
+.popup-dialog textarea
+{
+	margin: 0;
+	resize: none;
+}
+
+.popup-dialog td.error-message
+{
+	width: 100%;
+	text-align: center;
+}
+
+.input-append .btn.dropdown-toggle
+{
+	float: none;
+}
+
+div.fancybox-inner
+{
+	overflow: hidden;
+}
+
+.popup-dialog .buttons-area
+{
+	padding-top: 5px !important;
+	text-align: center !important;
+}
+
+.popup-dialog .buttons-area .btn
+{
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 80px;
+}
+
+.popup-dialog .nav-tabs>li>a
+{
+	color: #666666;
+}
+
+.popup-dialog .nav-tabs>li.active>a
+{
+	color: #000000;
+}

@@ -1,0 +1,19 @@
+AddDefaultCharset UTF-8
+
+AddType text/x-component .htc
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/mp4 .mov
+AddType video/webm .webm
+
+RewriteEngine on
+
+# if a directory or a file exists, use it directly
+# otherwise forward it to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php
+
+<Limit PROPFIND>
+Require valid-user
+</Limit>

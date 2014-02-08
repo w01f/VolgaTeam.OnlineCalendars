@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="urn:SyncControllerwsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns="http://schemas.xmlsoap.org/wsdl/" name="SyncController" targetNamespace="urn:SyncControllerwsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="urn:SyncControllerwsdl">
+      <xsd:complexType name="CalendarModelArray">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soap-enc:Array">
+            <xsd:attribute wsdl:arrayType="tns:CalendarModel[]" ref="soap-enc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="CalendarModel">
+        <xsd:all>
+          <xsd:element name="id" type="xsd:string" />
+          <xsd:element name="name" type="xsd:string" />
+          <xsd:element name="dateStart" type="xsd:string" />
+          <xsd:element name="dateEnd" type="xsd:string" />
+          <xsd:element name="lastModified" type="xsd:string" />
+          <xsd:element name="days" type="tns:DayModelArray" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="DayModelArray">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soap-enc:Array">
+            <xsd:attribute wsdl:arrayType="tns:DayModel[]" ref="soap-enc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="DayModel">
+        <xsd:all>
+          <xsd:element name="id" type="xsd:string" />
+          <xsd:element name="date" type="xsd:string" />
+          <xsd:element name="comment" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="getSessionKeyRequest">
+    <wsdl:part name="login" type="xsd:string" />
+    <wsdl:part name="password" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="getSessionKeyResponse">
+    <wsdl:part name="return" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="updateCalendarsRequest">
+    <wsdl:part name="sessionKey" type="xsd:string" />
+    <wsdl:part name="calendars" type="tns:CalendarModelArray" />
+  </wsdl:message>
+  <wsdl:message name="updateCalendarsResponse" />
+  <wsdl:portType name="SyncControllerPortType">
+    <wsdl:operation name="getSessionKey">
+      <wsdl:documentation>
+      </wsdl:documentation>
+      <wsdl:input message="tns:getSessionKeyRequest" />
+      <wsdl:output message="tns:getSessionKeyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateCalendars">
+      <wsdl:documentation>
+      </wsdl:documentation>
+      <wsdl:input message="tns:updateCalendarsRequest" />
+      <wsdl:output message="tns:updateCalendarsResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SyncControllerBinding" type="tns:SyncControllerPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="getSessionKey">
+      <soap:operation soapAction="urn:SyncControllerwsdl#getSessionKey" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:SyncControllerwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:SyncControllerwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateCalendars">
+      <soap:operation soapAction="urn:SyncControllerwsdl#updateCalendars" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:SyncControllerwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:SyncControllerwsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SyncControllerService">
+    <wsdl:port name="SyncControllerPort" binding="tns:SyncControllerBinding">
+      <soap:address location="http://localhost/OnlineCalendars/sync/quote?ws=1" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
